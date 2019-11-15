@@ -3,7 +3,8 @@ package CompositeThree;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		// Esta implementación la veo como la anterior, pero agregando una clase más en el medio como
+		// clase base de EnsaladaDeFruta, que no le veo mucho sentido...
 		IFruta manzana = new Manzana();
 		IFruta naranja = new Naranja();
 		IFruta pera = new Pera();
