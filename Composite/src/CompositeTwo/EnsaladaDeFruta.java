@@ -2,6 +2,7 @@ package CompositeTwo;
 
 import java.util.ArrayList;
 
+// No me parece que EnsaladaDeFruta sea una Fruta en sí misma...
 public class EnsaladaDeFruta implements IFruta {
 	
 	private ArrayList<IFruta> fruta = new ArrayList<IFruta>();

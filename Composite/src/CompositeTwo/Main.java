@@ -3,7 +3,7 @@ package CompositeTwo;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		// Muchísimo mejor este approach, sólo faltó el builder!
 		EnsaladaDeFruta ensaladaUno = new EnsaladaDeFruta();
 		IFruta manzana = new Manzana();
 		IFruta naranja = new Naranja();
