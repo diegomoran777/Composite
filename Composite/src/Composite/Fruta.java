@@ -1,5 +1,6 @@
 package Composite;
 
+// Esto se asemeja más a lo que debería haber sido la interfaz IFruta
 public class Fruta {
 	private String sabor = "";
 	private String color = "";

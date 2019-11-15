@@ -2,6 +2,7 @@ package Composite;
 
 import java.util.ArrayList;
 
+// La ensalada de frutas es una fruta? Eh?
 public class EnsaladaDeFruta implements IFruta  {
 	
 	private ArrayList<FrutaBuilder> ensaladaDeFrutas = new ArrayList<FrutaBuilder>();
