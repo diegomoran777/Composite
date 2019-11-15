@@ -3,6 +3,8 @@ package Composite;
 public class Main {
 
 	public static void main(String[] args) {
+		// No se estilan nombres de variables empezando con mayuscula aun siendo nombres propios porque se confunde
+		// con la convención de las clases, que empiezan con mayuscula.
 		Granjero Juan = new Granjero();
 		Juan.setFrutaBuilder( new Manzana());
 		Juan.buildFruta();

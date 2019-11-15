@@ -1,5 +1,6 @@
 package Composite;
 
+// Todavía no comprendo la función del Granjero...
 public class Granjero {
 	private FrutaBuilder frutaBuilder;
 

@@ -1,5 +1,6 @@
 package Composite;
 
+// Por qué Manzana hereda de FrutaBuilder, si la Manzana es una Fruta, no un builder de frutas? Lo mismo con Naranja
 public class Manzana extends FrutaBuilder {
 
 	@Override
